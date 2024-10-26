@@ -11,12 +11,12 @@ Kelas		: 5B Nonreg Banjarmasin
 Mata Kuliah	: Pemrograman Berbasis Objek 2
 
 
-# latihan 2 (membuat Aplikasi Penghitung Umur)
+# latihan 2 (Membuat Aplikasi Penghitung Umur)
 
 1. di sini saya menggunakan "JFrameForm" untuk tampilan utama aplikasi
 
 
-2. komponen yang saya gunakan antara lain adalah :
+2. Komponen yang saya gunakan antara lain adalah :
 - JLabel untuk Memberi nama pada Label "Tanggal Lahir","Umur",Dan "Hasil"
 - JDateChooser untuk memilih "Tanggal Lahir"
 - JButton Dengan teks "Hitung" agar dapat memproses Umur Berdasarkan Tanggal    Lahir Yang dipilih
@@ -30,7 +30,7 @@ Mata Kuliah	: Pemrograman Berbasis Objek 2
 
 
 
-4.pada tahap awal saya memasukan fungsi impor yaitu:
+4.Pada tahap awal saya memasukan fungsi impor yaitu:
 "import java.time.LocalDate;
 import java.time.Period;
 import java.util.Date;
@@ -38,7 +38,7 @@ import com.toedter.calendar.JDateChooser;"
 
 
 
-5.untuk koding tombol hitung :
+5.Untuk koding tombol hitung :
 "private void hitungUmurActionPerformed(java.awt.event.ActionEvent evt) {
     Date tanggalLahir = jDateChooser.getDate();
     LocalDate lahir = tanggalLahir.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
